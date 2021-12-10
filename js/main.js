@@ -124,6 +124,7 @@
         $portfolio_container.imagesLoaded(function () {
             setTimeout(function(){
                 portfolio_init(this);
+                $("#portfolio_filters").children('.active').children('a').click();
             }, 500);
         });
 
